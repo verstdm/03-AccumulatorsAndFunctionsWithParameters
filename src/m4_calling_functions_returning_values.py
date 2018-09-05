@@ -309,9 +309,9 @@ def fancy_sums_of_digits(n):
             -- the sum of the digits in (X ** Y) is 124309 (trust me!)
             -- so this function returns 124309.
     """
-    X = sum_of_digits(n ** 1000)
-    Y = sum_of_digits(n ** 999)
-    return sum_of_digits(X**Y)
+    x = sum_of_digits(n ** 1000)
+    y = sum_of_digits(n ** 999)
+    return sum_of_digits(x**y)
     # ------------------------------------------------------------------
     # DONE: 8. Implement and test this function.
     #
